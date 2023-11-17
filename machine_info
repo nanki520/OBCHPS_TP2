@@ -1,0 +1,108 @@
+(base) nanki@NankideMacBook-Pro TD2 % sysctl -a | grep cpu        
+kern.sched_rt_avoid_cpu0: 0
+kern.cpu_checkin_interval: 5000
+hw.ncpu: 8
+hw.activecpu: 8
+hw.perflevel0.physicalcpu: 4
+hw.perflevel0.physicalcpu_max: 4
+hw.perflevel0.logicalcpu: 4
+hw.perflevel0.logicalcpu_max: 4
+hw.perflevel0.cpusperl2: 4
+hw.perflevel1.physicalcpu: 4
+hw.perflevel1.physicalcpu_max: 4
+hw.perflevel1.logicalcpu: 4
+hw.perflevel1.logicalcpu_max: 4
+hw.perflevel1.cpusperl2: 4
+hw.physicalcpu: 8
+hw.physicalcpu_max: 8
+hw.logicalcpu: 8
+hw.logicalcpu_max: 8
+hw.cputype: 16777228
+hw.cpusubtype: 2
+hw.cpu64bit_capable: 1
+hw.cpufamily: 458787763
+hw.cpusubfamily: 2
+machdep.cpu.cores_per_package: 8
+machdep.cpu.core_count: 8
+machdep.cpu.logical_per_package: 8
+machdep.cpu.thread_count: 8
+machdep.cpu.brand_string: Apple M1
+
+(base) nanki@NankideMacBook-Pro TD2 % sysctl -a | grep cpu        
+kern.sched_rt_avoid_cpu0: 0
+kern.cpu_checkin_interval: 5000
+hw.ncpu: 8
+hw.activecpu: 8
+hw.perflevel0.physicalcpu: 4
+hw.perflevel0.physicalcpu_max: 4
+hw.perflevel0.logicalcpu: 4
+hw.perflevel0.logicalcpu_max: 4
+hw.perflevel0.cpusperl2: 4
+hw.perflevel1.physicalcpu: 4
+hw.perflevel1.physicalcpu_max: 4
+hw.perflevel1.logicalcpu: 4
+hw.perflevel1.logicalcpu_max: 4
+hw.perflevel1.cpusperl2: 4
+hw.physicalcpu: 8
+hw.physicalcpu_max: 8
+hw.logicalcpu: 8
+hw.logicalcpu_max: 8
+hw.cputype: 16777228
+hw.cpusubtype: 2
+hw.cpu64bit_capable: 1
+hw.cpufamily: 458787763
+hw.cpusubfamily: 2
+machdep.cpu.cores_per_package: 8
+machdep.cpu.core_count: 8
+machdep.cpu.logical_per_package: 8
+machdep.cpu.thread_count: 8
+machdep.cpu.brand_string: Apple M1
+(base) nanki@NankideMacBook-Pro TD2 % sysctl -a | grep cache
+kern.ipc.mb_uses_mcache: 0
+kern.kernelcacheuuid: 7CD3C048-5714-106B-76F6-0CFF2DED0D9D
+kern.namecache_disabled: 0
+kern.flush_cache_on_write: 0
+vm.vm_page_filecache_min: 213392
+vm.apple_protect_pager_cache_limit: 20
+vm.pageout_protected_sharedcache: 3
+vm.pageout_forcereclaimed_sharedcache: 2
+vfs.generic.nfs.server.reqcache_size: 64
+vfs.generic.nfs.client.readlink_nocache: 0
+vfs.generic.nfs.client.access_cache_timeout: 60
+vfs.generic.lifs.read_meta_cache_hit: 0
+vfs.generic.lifs.write_meta_cache_hit: 0
+net.inet.ip.rtmaxcache: 128
+net.inet.tcp.clear_tfocache: 0
+net.inet.tcp.init_rtt_from_cache: 1
+net.inet6.ip6.rtmaxcache: 128
+debug.didevice_cache_fully_satisfied: 26016
+debug.didevice_cache_spared_bytes: 276879872
+debug.didevice_thread_cache_reads: 5
+debug.didevice_cache_size_default: 33554432
+debug.didevice_enable_cache: 1
+debug.iosa.mapper_cache_policy: 2
+hw.perflevel0.l1icachesize: 196608
+hw.perflevel0.l1dcachesize: 131072
+hw.perflevel0.l2cachesize: 12582912
+hw.perflevel1.l1icachesize: 131072
+hw.perflevel1.l1dcachesize: 65536
+hw.perflevel1.l2cachesize: 4194304
+hw.cacheconfig: 8 1 4 0 0 0 0 0 0 0
+hw.cachesize: 3708452864 65536 4194304 0 0 0 0 0 0 0
+hw.cachelinesize: 128
+hw.l1icachesize: 131072
+hw.l1dcachesize: 65536
+hw.l2cachesize: 4194304
+security.mac.amfi.trust_cache_interface: 3
+security.mac.asp.stats.cache_entry_count: 3170
+security.mac.asp.stats.cache_allocation_count: 5774
+security.mac.asp.stats.cache_release_count: 2604
+
+(base) nanki@nankidemacbook-pro TD2 % brew info gcc
+==> gcc: stable 13.2.0 (bottled), HEAD
+
+(base) nanki@nankidemacbook-pro TD2 % clang --version
+Apple clang version 15.0.0 (clang-1500.0.40.1)
+Target: arm64-apple-darwin23.0.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin

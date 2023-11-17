@@ -1,0 +1,19 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     dotprod
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x1000037A4, symSize: 0x12C }
+  - { offsetInCU: 0x9A, offset: 0x9A, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x1000037A4, symSize: 0x12C }
+  - { offsetInCU: 0x1BB, offset: 0x1BB, size: 0x8, addend: 0x0, symName: _run_benchmark, symObjAddr: 0x12C, symBinAddr: 0x1000038D0, symSize: 0x228 }
+  - { offsetInCU: 0x26, offset: 0x55E, size: 0x8, addend: 0x0, symName: _print_f64, symObjAddr: 0x0, symBinAddr: 0x100003AF8, symSize: 0x70 }
+  - { offsetInCU: 0x53, offset: 0x58B, size: 0x8, addend: 0x0, symName: _print_f64, symObjAddr: 0x0, symBinAddr: 0x100003AF8, symSize: 0x70 }
+  - { offsetInCU: 0xA4, offset: 0x5DC, size: 0x8, addend: 0x0, symName: _init_f64, symObjAddr: 0x70, symBinAddr: 0x100003B68, symSize: 0xBC }
+  - { offsetInCU: 0x184, offset: 0x6BC, size: 0x8, addend: 0x0, symName: _sort_f64, symObjAddr: 0x12C, symBinAddr: 0x100003C24, symSize: 0x6C }
+  - { offsetInCU: 0x1B3, offset: 0x6EB, size: 0x8, addend: 0x0, symName: _sort_f64, symObjAddr: 0x12C, symBinAddr: 0x100003C24, symSize: 0x6C }
+  - { offsetInCU: 0x20A, offset: 0x742, size: 0x8, addend: 0x0, symName: _mean_f64, symObjAddr: 0x198, symBinAddr: 0x100003C90, symSize: 0x28 }
+  - { offsetInCU: 0x2A5, offset: 0x7DD, size: 0x8, addend: 0x0, symName: _stddev_f64, symObjAddr: 0x1C0, symBinAddr: 0x100003CB8, symSize: 0x64 }
+  - { offsetInCU: 0x26, offset: 0x8C7, size: 0x8, addend: 0x0, symName: _dotprod_base, symObjAddr: 0x0, symBinAddr: 0x100003D1C, symSize: 0x20 }
+  - { offsetInCU: 0x33, offset: 0x8D4, size: 0x8, addend: 0x0, symName: _dotprod_base, symObjAddr: 0x0, symBinAddr: 0x100003D1C, symSize: 0x20 }
+  - { offsetInCU: 0xA6, offset: 0x947, size: 0x8, addend: 0x0, symName: _dotprod_8, symObjAddr: 0x20, symBinAddr: 0x100003D3C, symSize: 0xB4 }
+  - { offsetInCU: 0x16D, offset: 0xA0E, size: 0x8, addend: 0x0, symName: _dotprod_8, symObjAddr: 0x20, symBinAddr: 0x100003D3C, symSize: 0xB4 }
+...
